@@ -36,7 +36,7 @@
 
 약수가 3개 이상.
 
-## 자연수는 1 혹은 소수 혹은 합성수 이다.
+## 자연수(natural number)는 1 혹은 소수(prime number) 혹은 합성수(composite numver) 이다.
 
 * `1`
 * 소수 : `[2, 3, 5, 7]`

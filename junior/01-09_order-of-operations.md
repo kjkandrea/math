@@ -14,3 +14,11 @@
 3. 곱셉 / 나눗셈을 계산한다. 우선 순위는 같다.
 4. 덧셈 / 뺄셈을 계산한다. 우선 순위는 같다.
 
+### PEMDAS
+
+* P (Parentheses)
+* E (Exponents)
+* M/D (Multiplication/Division)
+* A/S (Addition/Subtraction)
+
+`P E MD AS` => `PEMDAS`

@@ -4,6 +4,8 @@
 
 `(x, y)`
 
+### 좌표평면 (Coordinate Plane)
+
 ### 사분면 (Quadrants)
 
 * x, y 가 모두 양수인 면 : 제 1 사분면 (Quadrants I) ↗

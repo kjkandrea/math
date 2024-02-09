@@ -76,6 +76,6 @@ y = nx
 
 따라서 `xy = 2` 도 반비례 관계
 
-### 연립 방정식 (Joint Variation)
+### 결합 비례 (Joint Variation)
 
 `A = xy`

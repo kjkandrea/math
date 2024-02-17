@@ -1,5 +1,5 @@
 const calcVolume = {
-  clinder(radius, height) {
+  cylinder(radius, height) {
     return radius ** 2 * height * Math.PI
   },
   cone(radius, height) {

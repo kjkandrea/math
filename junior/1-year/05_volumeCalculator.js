@@ -7,7 +7,7 @@ const calcVolume = {
    * @returns {number} The volume of the cylinder.
    * @throws {Error} If radius or height is less than or equal to zero.
    */
-  cylinder(radius, height) {
+  calcCylinderVolume(radius, height) {
     if (radius <= 0 || height <= 0) {
       throw new Error('Radius and height must be positive');
     }
@@ -22,7 +22,7 @@ const calcVolume = {
    * @returns {number} The volume of the cone.
    * @throws {Error} If radius or height is less than or equal to zero.
    */
-  cone(radius, height) {
+  calcConeVolume(radius, height) {
     if (radius <= 0 || height <= 0) {
       throw new Error('Radius and height must be positive');
     }
@@ -36,7 +36,7 @@ const calcVolume = {
    * @returns {number} The volume of the sphere.
    * @throws {Error} If radius is less than or equal to zero.
    */
-  sphere(radius) {
+  calcSphereVolume(radius) {
     if (radius <= 0) {
       throw new Error('Radius must be positive');
     }

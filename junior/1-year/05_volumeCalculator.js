@@ -30,7 +30,7 @@ const calcVolume = {
     return radius ** 2 * height * Math.PI * (1 / 3)
   },
   /**
-   * Calculates the volume of a cone.
+   * Calculates the volume of a sphere.
    *
    * @param {number} radius - The radius of the sphere.
    * @returns {number} The volume of the sphere.

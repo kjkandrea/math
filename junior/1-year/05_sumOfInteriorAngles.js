@@ -1,7 +1,7 @@
-function sumOfInteriorAngles (vertices) {
+export function sumOfInteriorAngles(vertices) {
   if (2 >= vertices) {
-    throw new Error('The vertices must be greater than 2')
+    throw new Error("The vertices must be greater than 2");
   }
 
-  return (vertices - 2) * 180
+  return (vertices - 2) * 180;
 }

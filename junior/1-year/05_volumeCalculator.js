@@ -1,4 +1,4 @@
-const calcVolume = {
+export const calcVolume = {
   /**
    * Calculates the volume of a cylinder.
    *
@@ -9,10 +9,10 @@ const calcVolume = {
    */
   calcCylinderVolume(radius, height) {
     if (radius <= 0 || height <= 0) {
-      throw new Error('Radius and height must be positive');
+      throw new Error("Radius and height must be positive");
     }
 
-    return radius ** 2 * height * Math.PI
+    return radius ** 2 * height * Math.PI;
   },
   /**
    * Calculates the volume of a cone.
@@ -24,10 +24,10 @@ const calcVolume = {
    */
   calcConeVolume(radius, height) {
     if (radius <= 0 || height <= 0) {
-      throw new Error('Radius and height must be positive');
+      throw new Error("Radius and height must be positive");
     }
 
-    return radius ** 2 * height * Math.PI * (1 / 3)
+    return radius ** 2 * height * Math.PI * (1 / 3);
   },
   /**
    * Calculates the volume of a sphere.
@@ -38,9 +38,9 @@ const calcVolume = {
    */
   calcSphereVolume(radius) {
     if (radius <= 0) {
-      throw new Error('Radius must be positive');
+      throw new Error("Radius must be positive");
     }
 
-    return radius ** 3 * Math.PI * (4 / 3)
-  }
-}
+    return radius ** 3 * Math.PI * (4 / 3);
+  },
+};

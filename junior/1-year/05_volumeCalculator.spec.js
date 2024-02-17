@@ -7,7 +7,7 @@ describe("calcVolume", () => {
       expect(calcVolume.calcCylinderVolume(3, 5)).toBe(3 ** 2 * Math.PI * 5);
     });
 
-    it("calculates incorrectly for less then 0 radius or height", () => {
+    it("throws an error for radius or height less than 0", () => {
       expect(() => calcVolume.calcCylinderVolume(0, -5)).toThrow();
     });
   });
@@ -19,7 +19,7 @@ describe("calcVolume", () => {
       );
     });
 
-    it("calculates incorrectly for less then 0 radius or height", () => {
+    it("throws an error for radius or height less than 0", () => {
       expect(() => calcVolume.calcConeVolume(0, -5)).toThrow();
     });
   });
@@ -29,7 +29,7 @@ describe("calcVolume", () => {
       expect(calcVolume.calcSphereVolume(3)).toBe(3 ** 3 * Math.PI * (4 / 3));
     });
 
-    it("calculates incorrectly for less then 0 radius", () => {
+    it("throws an error for radius less than 0", () => {
       expect(() => calcVolume.calcSphereVolume(0)).toThrow();
     });
   });

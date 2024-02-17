@@ -1,4 +1,12 @@
 const calcVolume = {
+  /**
+   * Calculates the volume of a cylinder.
+   *
+   * @param {number} radius - The radius of the cylinder.
+   * @param {number} height - The height of the cylinder.
+   * @returns {number} The volume of the cylinder.
+   * @throws {Error} If radius or height is less than or equal to zero.
+   */
   cylinder(radius, height) {
     if (radius <= 0 || height <= 0) {
       throw new Error('Radius and height must be positive');
@@ -6,6 +14,14 @@ const calcVolume = {
 
     return radius ** 2 * height * Math.PI
   },
+  /**
+   * Calculates the volume of a cone.
+   *
+   * @param {number} radius - The radius of the cone.
+   * @param {number} height - The height of the cone.
+   * @returns {number} The volume of the cone.
+   * @throws {Error} If radius or height is less than or equal to zero.
+   */
   cone(radius, height) {
     if (radius <= 0 || height <= 0) {
       throw new Error('Radius and height must be positive');
@@ -13,6 +29,13 @@ const calcVolume = {
 
     return radius ** 2 * height * Math.PI * (1 / 3)
   },
+  /**
+   * Calculates the volume of a cone.
+   *
+   * @param {number} radius - The radius of the sphere.
+   * @returns {number} The volume of the sphere.
+   * @throws {Error} If radius is less than or equal to zero.
+   */
   sphere(radius) {
     if (radius <= 0) {
       throw new Error('Radius must be positive');

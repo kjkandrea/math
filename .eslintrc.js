@@ -4,4 +4,8 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  parserOptions: {
+    sourceType: "module",
+    allowImportExportEverywhere: true,
+  },
 };
